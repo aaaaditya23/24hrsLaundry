@@ -104,8 +104,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Email Address</h3>
-                  <p className="text-gray-600">info@freshpresslaundry.com</p>
-                  <p className="text-gray-600">support@freshpresslaundry.com</p>
+                  <p className="text-gray-600">info@cleanwavelaundry.com</p>
+                  <p className="text-gray-600">support@cleanwavelaundry.com</p>
                 </div>
               </div>
               

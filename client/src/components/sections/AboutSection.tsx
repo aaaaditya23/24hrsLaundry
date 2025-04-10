@@ -48,7 +48,7 @@ export default function AboutSection() {
               Clean Clothes, Clean Conscience
             </h2>
             <p className="text-gray-600 mb-4">
-              FreshPress Laundry was founded in 2010 with a simple mission: to provide busy people with high-quality laundry services that save time and reduce stress.
+              CleanWave Laundry was founded in 2010 with a simple mission: to provide busy people with high-quality laundry services that save time and reduce stress.
             </p>
             <p className="text-gray-600 mb-4">
               What started as a small operation has grown into a full-service laundry company serving thousands of satisfied customers. Our commitment to quality, sustainability, and customer satisfaction has remained unchanged.

@@ -23,7 +23,7 @@ export default function FeaturesSection() {
     <section className="py-12 bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Why Choose FreshPress?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Why Choose CleanWave?</h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
             Our commitment to quality service sets us apart from the competition.
           </p>

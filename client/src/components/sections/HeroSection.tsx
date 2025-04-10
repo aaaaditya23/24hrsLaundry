@@ -19,7 +19,7 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-              Professional Laundry Services for Your Busy Life
+              CleanWave: Premium Laundry Services for Your Busy Life
             </h1>
             <p className="text-lg mb-8 opacity-90">
               We take care of your laundry so you can focus on what matters most. Fast, reliable, and eco-friendly services.

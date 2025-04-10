@@ -18,7 +18,7 @@ export default function CTASection() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl md:text-2xl font-bold text-white">
-              Ready to experience hassle-free laundry service?
+              Ready to experience CleanWave's hassle-free laundry service?
             </h2>
             <p className="text-white/80 mt-2">
               Book now and get 15% off your first order!

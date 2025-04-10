@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-white text-2xl font-bold">FreshPress</span>
+              <span className="text-white text-2xl font-bold">CleanWave</span>
               <span className="ml-1 text-green-500 font-medium">Laundry</span>
             </div>
             <p className="text-gray-400 mb-4">
@@ -159,7 +159,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <EnvelopeIcon className="h-5 w-5 mt-1 mr-2 text-gray-400" />
-                <span className="text-gray-400">info@freshpresslaundry.com</span>
+                <span className="text-gray-400">info@cleanwavelaundry.com</span>
               </li>
               <li className="flex items-start">
                 <ClockIcon className="h-5 w-5 mt-1 mr-2 text-gray-400" />
@@ -172,7 +172,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-400">© {new Date().getFullYear()} FreshPress Laundry. All rights reserved.</p>
+              <p className="text-gray-400">© {new Date().getFullYear()} CleanWave Laundry. All rights reserved.</p>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
