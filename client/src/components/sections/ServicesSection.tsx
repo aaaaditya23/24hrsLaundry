@@ -7,28 +7,28 @@ export default function ServicesSection() {
       id: 'wash-fold',
       title: 'Wash & Fold',
       description: 'Your clothes washed, dried, and folded to perfection. Ideal for everyday laundry needs.',
-      price: 'From $1.99/lb',
+      price: 'From Rs. 100/item',
       image: 'https://images.unsplash.com/photo-1517677129300-07b130802f46?auto=format&fit=crop&w=400&h=250'
     },
     {
       id: 'dry-cleaning',
       title: 'Dry Cleaning',
       description: 'Professional cleaning for delicate fabrics, suits, dresses, and specialty items.',
-      price: 'From $5.99/item',
+      price: 'From Rs. 150/item',
       image: 'https://images.unsplash.com/photo-1551761429-8232f9f5955c?auto=format&fit=crop&w=400&h=250'
     },
     {
       id: 'ironing',
       title: 'Ironing & Pressing',
       description: 'Get wrinkle-free clothes with our professional ironing and pressing service.',
-      price: 'From $2.50/item',
+      price: 'From Rs. 20/item',
       image: 'https://images.unsplash.com/photo-1589642864572-d3a343bfti89?auto=format&fit=crop&w=400&h=250'
     },
     {
       id: 'bedding',
       title: 'Bedding & Linens',
       description: 'Specialized cleaning for comforters, duvets, sheets, and all your home linens.',
-      price: 'From $15.99/item',
+      price: 'From Rs. 50/item',
       image: 'https://images.unsplash.com/photo-1581655353564-df123a1eb820?auto=format&fit=crop&w=400&h=250'
     },
     {
