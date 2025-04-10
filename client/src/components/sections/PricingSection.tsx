@@ -5,13 +5,14 @@ export default function PricingSection() {
     {
       name: "Standard Plan",
       description: "Perfect for individuals with regular laundry needs",
-      price: "$1.99",
+      price: "2000",
       unit: "/lb",
       features: [
         "Wash, dry & fold service",
         "48-hour turnaround",
         "Standard detergent included",
-        "Folded & packaged neatly"
+        "Folded & packaged neatly",
+        "25 Cloths Included"
       ],
       cta: "Select Plan",
       popular: false
@@ -19,14 +20,15 @@ export default function PricingSection() {
     {
       name: "Premium Plan",
       description: "Ideal for those who want extra care for their clothes",
-      price: "$2.49",
+      price: "3000",
       unit: "/lb",
       features: [
         "Wash, dry & fold service",
         "24-hour turnaround",
         "Premium detergent & fabric softener",
         "Stain treatment included",
-        "Organized by clothing type"
+        "Organized by clothing type",
+        "25 Cloths Included"
       ],
       cta: "Select Plan",
       popular: true
@@ -49,12 +51,12 @@ export default function PricingSection() {
   ];
 
   const additionalServices = [
-    { name: "Dry Cleaning (shirts)", price: "$5.99/item" },
-    { name: "Dry Cleaning (pants)", price: "$7.99/item" },
-    { name: "Dry Cleaning (suits)", price: "$14.99/item" },
-    { name: "Ironing", price: "$2.50/item" },
-    { name: "Bedding (Queen/King)", price: "$19.99/item" },
-    { name: "Pickup & Delivery", price: "From $5.99" }
+    { name: "Dry Cleaning (shirts)", price: "100/item" },
+    { name: "Dry Cleaning (pants)", price: "120/item" },
+    { name: "Dry Cleaning (suits)", price: "200/item" },
+    { name: "Ironing", price: "30/item" },
+    { name: "Bedding (Queen/King)", price: "200/item" },
+    { name: "Pickup & Delivery", price: "Free" }
   ];
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
