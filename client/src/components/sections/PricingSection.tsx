@@ -5,7 +5,7 @@ export default function PricingSection() {
     {
       name: "Standard Plan",
       description: "Perfect for individuals with regular laundry needs",
-      price: "2000",
+      price: "Rs. 2000",
       unit: "/lb",
       features: [
         "Wash, dry & fold service",
@@ -20,7 +20,7 @@ export default function PricingSection() {
     {
       name: "Premium Plan",
       description: "Ideal for those who want extra care for their clothes",
-      price: "3000",
+      price: "Rs. 3000",
       unit: "/lb",
       features: [
         "Wash, dry & fold service",
@@ -51,11 +51,11 @@ export default function PricingSection() {
   ];
 
   const additionalServices = [
-    { name: "Dry Cleaning (shirts)", price: "100/item" },
-    { name: "Dry Cleaning (pants)", price: "120/item" },
-    { name: "Dry Cleaning (suits)", price: "200/item" },
-    { name: "Ironing", price: "30/item" },
-    { name: "Bedding (Queen/King)", price: "200/item" },
+    { name: "Dry Cleaning (shirts)", price: "Rs. 100/item" },
+    { name: "Dry Cleaning (pants)", price: "Rs. 120/item" },
+    { name: "Dry Cleaning (suits)", price: "Rs. 200/item" },
+    { name: "Ironing", price: "Rs. 30/item" },
+    { name: "Bedding (Queen/King)", price: "Rs. 200/item" },
     { name: "Pickup & Delivery", price: "Free" }
   ];
 
