@@ -1,4 +1,6 @@
 import { bookings, contacts, type Booking, type Contact, type InsertBooking, type InsertContact } from "@shared/schema";
+import { db } from "./db";
+import { eq } from "drizzle-orm";
 
 export interface IStorage {
   createBooking(booking: InsertBooking): Promise<Booking>;
@@ -7,43 +9,30 @@ export interface IStorage {
   getContacts(): Promise<Contact[]>;
 }
 
-export class MemStorage implements IStorage {
-  private bookings: Map<number, Booking> = new Map();
-  private contacts: Map<number, Contact> = new Map();
-  private bookingId = 1;
-  private contactId = 1;
-
+export class DatabaseStorage implements IStorage {
   async createBooking(bookingData: InsertBooking): Promise<Booking> {
-    const id = this.bookingId++;
-    const createdAt = new Date();
-    const booking: Booking = { 
-      id, 
-      ...bookingData, 
-      createdAt 
-    };
-    this.bookings.set(id, booking);
+    const [booking] = await db
+      .insert(bookings)
+      .values(bookingData)
+      .returning();
     return booking;
   }
 
   async createContact(contactData: InsertContact): Promise<Contact> {
-    const id = this.contactId++;
-    const createdAt = new Date();
-    const contact: Contact = {
-      id,
-      ...contactData,
-      createdAt
-    };
-    this.contacts.set(id, contact);
+    const [contact] = await db
+      .insert(contacts)
+      .values(contactData)
+      .returning();
     return contact;
   }
 
   async getBookings(): Promise<Booking[]> {
-    return Array.from(this.bookings.values());
+    return await db.select().from(bookings).orderBy(bookings.createdAt);
   }
 
   async getContacts(): Promise<Contact[]> {
-    return Array.from(this.contacts.values());
+    return await db.select().from(contacts).orderBy(contacts.createdAt);
   }
 }
 
-export const storage = new MemStorage();
+export const storage = new DatabaseStorage();
