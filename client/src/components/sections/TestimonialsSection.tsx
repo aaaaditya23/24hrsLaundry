@@ -5,21 +5,21 @@ export default function TestimonialsSection() {
     {
       id: 1,
       rating: 5,
-      content: "I've been using FreshPress for over a year, and I'm consistently impressed with their quality and attention to detail. My clothes come back fresh, clean, and perfectly folded every time.",
+      content: "I've been using CleanWave for over a year, and I'm consistently impressed with their quality and attention to detail. My clothes come back fresh, clean, and perfectly folded every time.",
       name: "Sarah Johnson",
       title: "Regular Customer"
     },
     {
       id: 2,
       rating: 5,
-      content: "As a busy professional, I don't have time to do laundry. FreshPress's pickup and delivery service has been a game-changer. Their reliability and quality service have made my life so much easier.",
+      content: "As a busy professional, I don't have time to do laundry. CleanWave's pickup and delivery service has been a game-changer. Their reliability and quality service have made my life so much easier.",
       name: "Michael Chen",
       title: "Premium Plan Customer"
     },
     {
       id: 3,
       rating: 4.5,
-      content: "I own a small bed and breakfast, and FreshPress handles all our linens. Their commercial service is affordable, and they're always on time. My guests always comment on the fresh-smelling sheets!",
+      content: "I own a small bed and breakfast, and CleanWave handles all our linens. Their commercial service is affordable, and they're always on time. My guests always comment on the fresh-smelling sheets!",
       name: "Emily Rodriguez",
       title: "Business Customer"
     }
